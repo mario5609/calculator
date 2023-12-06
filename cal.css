@@ -1,9 +1,11 @@
 form{
-    background-color: cornsilk;
+    background-color: rgb(255, 136, 0);
     display:flexbox;
     text-align: center;
     margin-left: 220px;
     margin-right: 220px;
+    border-radius: 15px;
+    padding-bottom: 4px;
 }
 .bd{
     display: flex;
@@ -16,6 +18,9 @@ form{
     margin: 6px;
     height: 50px;
 }
+.bkd1{
+    margin-left: 2px;
+}
 
 button{
     background-color: aliceblue;
@@ -23,10 +28,17 @@ button{
     border-radius: 10px;
     height: 30px;
     width: 30px;
-    box-shadow: inset 0px 2px rgb(0, 255, 242);
+    box-shadow: inset 2px 2px rgb(0, 0, 0);
     margin: 3px;
 }
+.bkd2{
+    margin-left: 6px;
+}
 .bkd2 button{
+    background-color: black;
+    color: orange;
+    box-shadow:0px 0px;
+    margin: 2px;
     height: 25px;
     width: 25px;
 }

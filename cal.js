@@ -12,7 +12,6 @@ function ad7(){
     let x= document.getElementById("bx").value;
     let a= document.getElementById("n7").value;
     document.getElementById("bx").value=(x+a);
-    console.log(a);
 }
 function ad6(){
     let x= document.getElementById("bx").value;
