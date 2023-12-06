@@ -2,17 +2,19 @@ form{
     background-color: cornsilk;
     display:flexbox;
     text-align: center;
-    margin-left: 180px;
-    margin-right: 180px;
+    margin-left: 220px;
+    margin-right: 220px;
 }
 .bd{
     display: flex;
+    margin-left: 10px;
 
 }
 #bx{
     border-radius: 10px;
     box-shadow: 0px 2px;
     margin: 6px;
+    height: 50px;
 }
 
 button{
@@ -27,4 +29,7 @@ button{
 .bkd2 button{
     height: 25px;
     width: 25px;
+}
+#clk{
+
 }
