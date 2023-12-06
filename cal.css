@@ -1,0 +1,30 @@
+form{
+    background-color: cornsilk;
+    display:flexbox;
+    text-align: center;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+.bd{
+    display: flex;
+
+}
+#bx{
+    border-radius: 10px;
+    box-shadow: 0px 2px;
+    margin: 6px;
+}
+
+button{
+    background-color: aliceblue;
+    border-style: hidden;
+    border-radius: 10px;
+    height: 30px;
+    width: 30px;
+    box-shadow: inset 0px 2px rgb(0, 255, 242);
+    margin: 3px;
+}
+.bkd2 button{
+    height: 25px;
+    width: 25px;
+}

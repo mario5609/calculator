@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>calculator</title>
+        <link rel="stylesheet" href="cal.css">
+        <script src="cal.js"></script>
+    </head>
+    <body>
+        <form>
+            <div class="bkd">
+                <input type="textbox" id="bx"><br>
+            </div>
+            <div class="bd">
+                <div class="bkd1">
+                    <button type="button" id="n9" onclick="ad9()" value="9">9</button>
+                    <button type="button" id="n8" onclick="ad8()" value="8">8</button>
+                    <button type="button" id="n7" onclick="ad7()" value="7">7</button><br>
+                    <button type="button" id="n6" onclick="ad6()" value="6">6</button>
+                    <button type="button" id="n5" onclick="ad5()" value="5">5</button>
+                    <button type="button" id="n4" onclick="ad4()" value="4">4</button><br>
+                    <button type="button" id="n3" onclick="ad3()" value="3">3</button>
+                    <button type="button" id="n2" onclick="ad2()" value="2">2</button>
+                    <button type="button" id="n1" onclick="ad1()" value="1">1</button><br>
+                    <button type="button" id="clk" onclick="ent()">=</button>
+                    <button type="button" id="n0" onclick="ad0()" value="0">0</button>
+                    <button type="button" id="bk" onclick="br()">bk</button>
+                    <button type="button" id="cl" onclick="cr()">C</button>
+                </div>
+                <div class="bkd2">
+                    <button type="button" id="s+" onclick="adp()" value="+">+</button><br>
+                    <button type="button" id="s-" onclick="admi()" value="-">-</button><br>
+                    <button type="button" id="s*" onclick="adm()" value="*">*</button><br>
+                    <button type="button" id="s/" onclick="addi()" value="/">/</button>
+                </div>
+
+            </div>
+        </form>
+    </body>
+</html>
