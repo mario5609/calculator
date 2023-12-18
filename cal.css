@@ -1,9 +1,9 @@
 form{
-    background-color: rgb(255, 136, 0);
+    background-color: rgb(255, 137, 0);
     display:flexbox;
     text-align: center;
-    margin-left: 220px;
-    margin-right: 220px;
+    margin-left: 50%;
+    width: 4.8cm;
     border-radius: 15px;
     padding-bottom: 4px;
 }
